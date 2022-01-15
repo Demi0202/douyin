@@ -13,25 +13,24 @@ sourceTxt = '工作簿1.txt '
 targetTxt = '工作簿2.txt'
 
 with open(sourceTxt, 'r') as sourceFile, open(targetTxt, 'a+') as targetFile:
+    for line in sourceFile:
+        seg = jieba.cut(line.strip(), cut_all = False)
+        
 
-for line in sourceFile:
+ # 分好词之后之间用空格隔断
 
-seg = jieba.cut(line.strip(), cut_all = False)
+        output = ' '.join(seg)
 
-# 分好词之后之间用空格隔断
+        targetFile.write(output)
 
-output = ' '.join(seg)
-
-targetFile.write(output)
-
-targetFile .write('\n')
+        targetFile .write('\n')
 
 print('写入成功！')
 
 
 with open(targetTxt, 'r') as file:
 
-text = file.readlines()
+    text = file.readlines()
 
 """
 
