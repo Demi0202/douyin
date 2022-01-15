@@ -13,7 +13,7 @@ from selenium.webdriver import ActionChains
 
 # from selenium.webdriver.common. keys import Keys
 pyautogui.FAILSAFE = True
-filepath = './picture'  # 文件存储目录
+filepath = './picture'  # 滑块图片文件存储目录
 url = 'https://www.douyin.com/'
 
 opt = webdriver.ChromeOptions()
