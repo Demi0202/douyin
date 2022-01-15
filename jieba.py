@@ -52,3 +52,15 @@ keywords = jieba.analyse.extract_tags(str(text), topK = 10, withWeight=True, all
 print(keywords)
 
 print('提取完毕！')
+
+%%time                   #提取词频前十的词语
+wordcount = Counter()
+for word in jieba.cut(text):
+    if len(word) > 1 and word not in stop_words:
+        wordcount[word] += 1
+print(wordcount.most_common(10))
+
+
+
+
+
