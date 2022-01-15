@@ -17,7 +17,8 @@ class Action():
         # The necessary parms to convert to appium server
         caps = {}
         caps["platformName"] = "Android"
-        caps["deviceName"] = "SAMSUNG_SM_N900A"
+        caps["deviceName"] = "127.0.0.1:62001"
+        caps["platFormVersion"]="10"           #鸿蒙系统是安卓10版本
         # Next two ele can be found by bash command:
         # adb logcat ActivityManager:I*:s
         caps["appPackage"] = "com.ss.android.ugc.aweme"  # DouYin package adress
