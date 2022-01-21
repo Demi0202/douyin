@@ -1,3 +1,10 @@
+头条分类在ipynb文件里
+=
+上传的是原数据集，整理后的数据集太大无法上传，截图如下
+=
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/90304231/150448158-7e4cb6ea-9dda-4fd5-8a80-1f9248835c0f.png">
+
+
 现有两种方法进行抖音爬虫，方法一已实现，方法二正在修改代码中
 =
 1.douyin_spider_web.py
