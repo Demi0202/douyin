@@ -8,7 +8,21 @@
 
 分类code与名称：
 -
-100 民生 故事 news_story  101 文化 文化 news_culture  102 娱乐 娱乐 news_entertainment  103 体育 体育 news_sports  104 财经 财经 news_finance  106 房产 房产 news_house  107 汽车 汽车 news_car  108 教育 教育 news_edu   109 科技 科技 news_tech  110 军事 军事 news_military  112 旅游 旅游 news_travel  113 国际 国际 news_world  114 证券 股票 stock  115 农业 三农 news_agriculture  116 电竞 游戏 news_game
+100 民生 故事 news_story  
+101 文化 文化 news_culture  
+102 娱乐 娱乐 news_entertainment  
+103 体育 体育 news_sports  
+104 财经 财经 news_finance  
+106 房产 房产 news_house  
+107 汽车 汽车 news_car  
+108 教育 教育 news_edu   
+109 科技 科技 news_tech  
+110 军事 军事 news_military  
+112 旅游 旅游 news_travel  
+113 国际 国际 news_world  
+114 证券 股票 stock  
+115 农业 三农 news_agriculture  
+116 电竞 游戏 news_game
 
 现有两种方法进行抖音爬虫，方法一已实现，方法二正在修改代码中
 =
